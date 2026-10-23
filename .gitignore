@@ -1,0 +1,45 @@
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+config.local.php
+config.local.*.php
+
+# Production and local databases / exports
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+*.backup
+*.old
+*.orig
+
+# Runtime data
+/logs/
+/cache/
+/tmp/
+/storage/backups/
+/backups/
+/uploads/
+
+# Dependencies and generated files
+/vendor/
+/node_modules/
+/.phpunit.cache/
+/coverage/
+/build/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# PHP error logs
+error_log
+*.log
